@@ -23,9 +23,9 @@ public class EzqlDatabase {
     private Map<String, EzqlTable> tables = new HashMap<>();
 
     /**
+     * Main constructor, will apply defaults settings for hikari config
+     *
      * @param credentials Needed for the API to connect to your database server
-     *                    <p>
-     *                    Main constructor, will apply defaults settings for hikari config
      */
     public EzqlDatabase(EzqlCredentials credentials) {
         this.credentials = credentials;
@@ -41,6 +41,11 @@ public class EzqlDatabase {
         this.customHikariSettings = customHikariSettings;
     }
 
+    /**
+     *
+     * @return Create a connection to the database
+     * @throws SQLException
+     */
     public Connection getConnection() throws SQLException {
         try {
             if (hikariDataSource == null) {
@@ -53,20 +58,37 @@ public class EzqlDatabase {
         return null;
     }
 
+    /**
+     * Connect to the MySQL server
+     */
     public void connect() {
         HikariConfig hikariConfig = customHikariSettings.getHikariConfig(credentials);
 
         hikariDataSource = new HikariDataSource(hikariConfig);
     }
 
+    /**
+     * Disconnect from the MySQL server
+     */
     public void disconnect() {
         hikariDataSource.close();
     }
 
+    /**
+     *
+     * @param name The table name
+     * @return returns an EzqlTable object
+     */
     public EzqlTable getTable(String name) {
         return tables.get(name);
     }
 
+    /**
+     *
+     * @param name The table mame
+     * @param ezqlColumns The table columns
+     * @return returns an EzqlTable object
+     */
     public EzqlTable addTable(String name, EzqlColumn... ezqlColumns) {
         EzqlTable ezqlTable = new EzqlTable(name, this, ezqlColumns);
 
