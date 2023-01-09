@@ -1,0 +1,16 @@
+-classpath 'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\build\\classes\\java\\main;E:\\Programming\\INTELLIJ\\Personal\\EzQL\\build\\resources\\main;C:\\Users\\zeltu\\.gradle\\caches\\modules-2\\files-2.1\\com.zaxxer\\HikariCP\\5.0.1\\a74c7f0a37046846e88d54f7cb6ea6d565c65f9c\\HikariCP-5.0.1.jar;C:\\Users\\zeltu\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\\slf4j-api-1.7.30.jar;C:\\Users\\zeltu\\.gradle\\caches\\modules-2\\files-2.1\\com.mysql\\mysql-connector-j\\8.0.31\\3fd5850719d7e82d50705d34cc6a0037fab5731f\\mysql-connector-j-8.0.31.jar;C:\\Users\\zeltu\\.gradle\\caches\\modules-2\\files-2.1\\com.google.protobuf\\protobuf-java\\3.19.4\\748e4e0b9e4fa6b9b1fe65690aa04a9db56cfc4d\\protobuf-java-3.19.4.jar'
+-d 'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\build\\docs\\javadoc'
+-doctitle 'EzQL 1.0.0 API'
+-notimestamp 
+-quiet 
+-windowtitle 'EzQL 1.0.0 API'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\exception\\EzqlColumnOrderException.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\DataType.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\EzqlColumn.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\EzqlDatabase.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\EzqlQuery.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\EzqlRow.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\objects\\EzqlTable.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\settings\\CustomHikariSettings.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\settings\\DefaultHikariSettings.java'
+'E:\\Programming\\INTELLIJ\\Personal\\EzQL\\src\\main\\java\\tr\\zeltuv\\ezql\\settings\\EzqlCredentials.java'

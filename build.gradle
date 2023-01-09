@@ -3,6 +3,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '6.1.0'
 }
 
+
 group 'tr.zeltuv'
 version '1.0.0'
 
@@ -17,6 +18,7 @@ dependencies {
     implementation 'com.zaxxer:HikariCP:5.0.1'
     implementation 'mysql:mysql-connector-java:8.0.31'
 }
+
 
 test {
     useJUnitPlatform()

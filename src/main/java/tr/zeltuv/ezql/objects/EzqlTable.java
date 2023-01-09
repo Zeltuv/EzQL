@@ -146,7 +146,7 @@ public class EzqlTable {
      * @param where The condition field
      * @param whereValue The condition value
      */
-    public void removeRows(String where,String whereValue){
+    public void removeRows(String where,Object whereValue){
         database.getEzqlQuery().remove(this,where,whereValue);
     }
 
