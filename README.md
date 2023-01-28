@@ -2,9 +2,9 @@
 
 Do you struggle with all those long and annoying MySQL command lines ? Use EzQL ! You will be provided an easy and light API (Made with HikariCP) to use MySQL !
 
-# 🪨 Artifacts
+> **Note: This library needs HikariCP and the JDBC MySQL Connector and only works for Java 17.**
 
-**Keep in mind that this lib only works in Java 17+**
+# 🪨 Artifacts
 
 *Maven:*
 ```xml
