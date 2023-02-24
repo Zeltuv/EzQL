@@ -2,8 +2,6 @@ package tr.zeltuv.ezql.objects;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import tr.zeltuv.ezql.objects.EzqlColumn;
-import tr.zeltuv.ezql.objects.EzqlTable;
 import tr.zeltuv.ezql.settings.DefaultHikariSettings;
 import tr.zeltuv.ezql.settings.EzqlCredentials;
 import tr.zeltuv.ezql.settings.CustomHikariSettings;
@@ -12,7 +10,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 public class EzqlDatabase {
 

@@ -21,8 +21,6 @@ public class EzqlRow {
                 addValue(key,value);
             }
         }
-
-        System.out.println(getValues());
     }
 
     public Map<String, Object> getValues() {
