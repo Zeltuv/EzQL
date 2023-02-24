@@ -3,16 +3,12 @@ plugins {
 }
 
 group 'net.code4me'
-version '1.0.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
 }
 
-compileJava {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
-}
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
